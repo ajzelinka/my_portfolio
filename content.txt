@@ -1,0 +1,35 @@
+Andrew Zelinka
+ajzelinka@gmail.com
+
+Education
+2018-2022: Bachelor of Science in Mechanical Engineering
+The University of Alabama in Huntsville
+
+2024- Present: Master of Science in Computer Science
+The University of Alabama in Huntsville
+
+Career
+2023 - Present: Model-Based Systems Engineer
+Intuitive Research and Technology Corporation
+
+Developed enterprise, operational, and system models in support of engineering development
+Attended technical working meetings to learn and accurately model systems and systems of systems (SoS)
+Directed multiple system design reviews using MBSE tools and artifacts
+Spearheaded a digital engineering pilot project to leverage digital engineering tools and methods in the pursuit of an elegant and informed digital transformation
+
+Certifications
+OCSMP SysML Model User
+OCSMP Model Builder Fundamental
+
+//    Achievements
+//    2022: Boeing New Business Challenge Winner
+//    Led a team of engineers and biologists to victory in the Boeing New Business Challenge
+//    Analyzed market trends to determine viability of a new home appliance
+//    Authored a winning business plan including sales forecast, startup requirements, depreciation, profit & loss, and breakeven analysis
+//    Presented business plan to investors and entrepreneurs
+
+Skills and Abilities
+Cameo Systems Modeler
+Systems Modeling Language
+Unified Architecture Framework
+Velocity Templating Language

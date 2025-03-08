@@ -9,41 +9,121 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Andrew Zelinka</h1>
-        <p>ajzelinka@gmail.com</p>
-    <h2>Education</h2>
-        <h3>2018-2022: Bachelor of Science in Mechanical Engineering</h3>
-        <p>The University of Alabama in Huntsville</p>
-        <h3>2024- Present: Master of Science in Computer Science</h3>
-        <p>The University of Alabama in Huntsville</p>
-    <h2>Career</h2>
-        <h3>2023 - Present: Model-Based Systems Engineer</h3>
-        <p>Intuitive Research and Technology Corporation</p>
-        <ul>
-            <li>Developed enterprise, operational, and system models in support of engineering development</li>
-            <li>Attended technical working meetings to learn and accurately model systems and systems of systems (SoS)</li>
-            <li>Directed multiple system design reviews using MBSE tools and artifacts</li>
-            <li>Spearheaded a digital engineering pilot project to leverage digital engineering tools and methods in the pursuit of an elegant and informed digital transformation</li>
-        </ul>
-    <h2>Certifications</h2>
-        <ul>
-            <li>OCSMP SysML Model User</li>
-            <li>OCSMP Model Builder Fundamental</li>
-        </ul>
-    <h2>Achievements</h2>
-        <h3>2022: Boeing New Business Challenge Winner</h3>
-        <ul>
-            <li>Led a team of engineers and biologists to victory in the Boeing New Business Challenge</li>
-            <li>Analyzed market trends to determine viability of a new home appliance</li>
-            <li>Authored a winning business plan including sales forecast, startup requirements, depreciation, profit & loss, and breakeven analysis</li>
-            <li>Presented business plan to investors and entrepreneurs</li>
-        </ul>
-    <h2>Skills and Abilities</h2>
-        <ul>
-            <li>Cameo Systems Modeler</li>
-            <li>Systems Modeling Language</li>
-            <li>Unified Architecture Framework</li>
-            <li>Velocity Templating Language</li>
-        </ul>
+    <div class="wrapper"> <!--To go around the whole thing and give margins and stuff.-->
+        <header> <!--Shows up as right-side banner on desktop but full-width top banner on mobile-->
+            <div class="header-top"> <!--Darker part of design w picture, name, and position-->
+                <div class="image-bounds-circle"> <!--Circle for enclosing picture-->
+                    <img class="profile-pic", src="icons/User.svg", alt="Man icon"> <!--Image, name, and position-->
+                </div>
+                <h1>Andrew Zelinka</h1>
+                <p class="header-subheading">Computer Science Student</p>
+            </div>
+            <div class="header-bottom">
+                <nav class="links-navigation">
+                    <ul>
+                        <li>
+                            <a href="#", target="_blank"><img src="icons/Mail.svg" alt="Mail icon">
+                                <span class="hidden-mobile">Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html"><img src="icons/Globe.svg" alt="Globe icon">
+                                <span class="hidden-mobile">Portfolio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andrew-zelinka-554b38174/", target="_blank"><img src="icons/Linkedin.svg" alt="LinkedIn icon">
+                                <span class="hidden-mobile">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ajzelinka", target="_blank"><img src="icons/Github.svg" alt="Github icon">
+                                <span class="hidden-mobile">GitHub</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-entry">
+                <h2> <!--Gonna use h2 for all section headers. Each should have an image too.-->
+                    <img src="icons/Info.svg" alt="Information Icon">
+                    <span>ABOUT ME</span>
+                </h2>
+                <p>
+                    About me paragraph
+                </p>
+            </div>
+            <div class="main-entry">
+                <h2> <!--Gonna use h2 for all section headers. Each should have an image too.-->
+                    <img src="icons/Book.svg" alt="Book Icon">
+                    <span>EDUCATION</span> 
+                </h2>
+                <div class="education-entry">
+                    <div class="entry-name-date">
+                            <div class="degree">Bachelors of Mechanical Engineering</div>
+                            <div class="date-range">2018 - 2022</div>
+                    </div>
+                    <p class="institution">
+                        University of Alabama in Huntsville
+                    </p>
+                </div>
+                <div class="education-entry">
+                    <div class="entry-name-date">
+                        <div class="degree">Masters of Computer Science</div>
+                        <div class="date-range">2024 - Present</div>
+                    </div>
+                    <p class="institution">
+                        University of Alabama in Huntsville
+                    </p>
+                </div>
+            </div>
+            <div class="main-entry">
+                <h2> <!--Gonna use h2 for all section headers. Each should have an image too.-->
+                    <img src="icons/Briefcase.svg" alt="Award Icon">
+                    <span>EXPERIENCE</span>
+                </h2>
+                <div class="experience-entry">
+                    <div class="entry-name-date">
+                        <div class="position">Model-Based Systems Engineer</div>
+                        <div class="date-range">2023 - Present</div>
+                    </div>
+                    <p class="institution">
+                        Intuitive Research and Technology Corporation
+                    </p>
+                    <ul>
+                        <li>Developed enterprise, operational, and system models in support of engineering development</li>
+                        <li>Attended technical working meetings to learn and accurately model systems and systems of systems (SoS)</li>
+                        <li>Directed multiple system design reviews using MBSE tools and artifacts</li>
+                        <li>Spearheaded a digital engineering pilot project to leverage digital engineering tools and methods in the pursuit of an elegant and informed digital transformation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-entry">
+                <h2> <!--Gonna use h2 for all section headers. Each should have an image too.-->
+                    <img src="icons/Award.svg" alt="Award Icon">
+                    <span>SKILLS</span>
+                </h2>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <ul class="certifications">
+                        <li>OCSMP SysML Model User</li>
+                        <li>OCSMP Model Builder Fundamental</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Tools and Languages</h3>
+                    <ul class="skills">
+                        <li>Cameo Systems Modeler</li>
+                        <li>Systems Modeling Language</li>
+                        <li>Unified Architecture Framework</li>
+                        <li>Velocity Templating Language</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
