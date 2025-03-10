@@ -22,7 +22,7 @@
                 <nav class="links-navigation">
                     <ul>
                         <li>
-                            <a href="#", target="_blank"><img src="icons/Mail.svg" alt="Mail icon">
+                            <a href="#", id="email"><img src="icons/Mail.svg" alt="Mail icon">
                                 <span class="hidden-mobile">Email</span>
                             </a>
                         </li>
@@ -126,4 +126,14 @@
         </main>
     </div>
 </body>
+
+<script>
+    const email = document.getElementById("email");
+
+    email.addEventListener('click', function() {
+        navigator.clipboard.writeText("ajzelinka@gmail.com");
+        alert("Email copied to clipboard.");
+    });
+</script>
+
 </html>
